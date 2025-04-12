@@ -14,7 +14,7 @@ export const Testimonials = ({
 }) => {
   return (
     <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 my-10 md:px-20 px-4">
-      {testmonialsData?.slice(0, 4).map((item) => (
+      {testmonialsData?.map((item) => (
         <div className=" border-gray-200 border-2 py-5" key={item.name}>
           <Image
             src={item.image}
