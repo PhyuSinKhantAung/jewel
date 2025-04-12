@@ -1,8 +1,4 @@
-import {
-  HiHeart,
-  HiOutlineCalendarDays,
-  HiOutlineUserCircle,
-} from "react-icons/hi2";
+import { HiOutlineCalendarDays, HiOutlineUserCircle } from "react-icons/hi2";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { IoBagOutline } from "react-icons/io5";
 

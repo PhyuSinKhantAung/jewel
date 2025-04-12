@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-3">Let's Keep In Touch</h3>
+            <h3 className="font-semibold mb-3">{`Let's Keep In Touch`}</h3>
             <NewsletterForm />
 
             <h4 className="font-medium text-gray-700 mb-2">Payment Methods</h4>
@@ -83,7 +83,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-200 pt-6 flex flex-col md:flex-row items-center justify-between text-xs">
-          <p>© 2025, All Rights Reserved – MyJewel</p>
+          <p>© 2025, All Rights Reserved - MyJewel</p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <Link href="#">Terms & Conditions</Link>
             <Link href="#">Privacy Policy</Link>
