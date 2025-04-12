@@ -1,16 +1,12 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import { Testimonial } from "./TestimonialsSection";
 
 export const Testimonials = ({
   testmonialsData,
 }: {
-  testmonialsData: {
-    name: string;
-    email: string;
-    image: string;
-    phone: string;
-  }[];
+  testmonialsData: Testimonial[];
 }) => {
   return (
     <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 my-10 md:px-20 px-4">
@@ -26,7 +22,7 @@ export const Testimonials = ({
           <div className="text-center">
             <h3 className="font-semibold">{item.name}</h3>
             <p className="text-sm text-gray-500">{item.email}</p>
-            <p className="mt-3 text-gray-700">{item.phone}</p>
+            <p className="mt-3 text-gray-700">{item.quote}</p>
           </div>
         </div>
       ))}
