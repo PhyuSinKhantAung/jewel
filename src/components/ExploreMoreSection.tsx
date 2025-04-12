@@ -12,7 +12,7 @@ export const ExploreMoreSection = () => {
             Looking for more diamond guides, buying tips or details about the
             4Cs? Explore more of our diamond education pages:
           </p>
-          <div className="grid md:grid-cols-2 grid-cols-1">
+          <div className="grid md:grid-cols-2 grid-cols-1 my-4">
             <div className="flex items-center space-x-4 py-2">
               <Link className="" href={""}>
                 Lab Grown Diamond Guide
