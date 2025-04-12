@@ -12,7 +12,7 @@ export default function CustomJewelry() {
           </p>
         </div>
 
-        <div className="relative w-[400px] h-[500px]">
+        <div className="relative min-w-[20rem] min-h-[30rem]">
           <div className="absolute top-0 left-0 w-[70%] h-[70%]">
             <Image
               src="/images/ring-1.png"
