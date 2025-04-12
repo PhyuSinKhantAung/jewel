@@ -43,31 +43,37 @@ export default function CustomJewelry() {
         <ul className="space-y-6 text-sm">
           {[
             {
+              id: "1",
               title: "Consultation",
               desc: "We discuss your vision and preferences to craft a unique design.",
             },
             {
+              id: "2",
               title: "Selecting Materials",
               desc: "Choose from exquisite diamonds, precious metals, and gemstones.",
             },
             {
+              id: "3",
               title: "Creating a 3D Model",
               desc: "Visualize your design with a precise 3D model before production.",
             },
             {
+              id: "4",
               title: "Manufacturing",
               desc: "Expert artisans bring your piece to life with precision and care.",
             },
             {
+              id: "5",
               title: "Quality Assurance",
               desc: "Every detail is inspected to ensure flawless craftsmanship.",
             },
             {
+              id: "6",
               title: "Delivery",
               desc: "Your custom jewelry is elegantly packaged and delivered to you.",
             },
           ].map((item, index) => (
-            <li key={index}>
+            <li key={item.id}>
               <div className="flex space-x-4 items-start">
                 <span className="text-muted text-sm font-medium w-6">
                   {`0${index + 1}`}
