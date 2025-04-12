@@ -42,7 +42,7 @@ export const Navbar = () => {
           </span>
         </div>
 
-        <IoSearchOutline className="text-xl" />
+        <IoSearchOutline className="text-md" />
       </div>
     </section>
   );

@@ -14,11 +14,11 @@ export const HeroHeader = () => {
         <span className="uppercase text-sm">Book an appointment</span>
       </div>
 
-      <p className="mx-auto xl:mx-0 xl:text-sm block text-accent text-[0.5rem]">
+      <p className="mx-auto md:mx-0 md:text-sm block text-accent text-[0.5rem]">
         • Exclusive Collection Launch: Discover Timeless Elegance Today •
       </p>
 
-      <div className="hidden xl:flex flex-row items-center gap-2">
+      <div className="hidden md:flex flex-row items-center gap-2">
         <HiOutlineUserCircle className="text-accent" />
         <IoIosHeartEmpty className="text-accent" />
         <IoBagOutline className="text-accent" />
