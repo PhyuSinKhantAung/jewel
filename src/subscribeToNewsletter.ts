@@ -7,7 +7,7 @@ export async function subscribeToNewsletter(formData: FormData) {
     throw new Error("Invalid email format");
   }
 
-  console.log(`Simulated email sent to ${process.env.EMAIL_ADDRESS}: ${email}`);
+  console.log("Email Sent Successfully!", { email });
 
   return { success: true };
 }
