@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CustomJewelry() {
   return (
-    <section className="py-12 grid md:grid-cols-2 gap-10 p-3">
+    <section className="py-12 grid md:grid-cols-2 gap-10 md:px-20 px-4">
       <div>
         <div className="mb-6">
           <p className="text-muted text-sm">Home / Custom Jewelry</p>
@@ -12,23 +12,23 @@ export default function CustomJewelry() {
           </p>
         </div>
 
-        <div className="relative w-full h-[500px]">
+        <div className="relative w-[400px] h-[500px]">
           <div className="absolute top-0 left-0 w-[70%] h-[70%]">
             <Image
               src="/images/ring-1.png"
               alt="Ring 1"
-              objectFit="cover"
-              layout="fill"
-              className="rounded shadow"
+              className="rounded w-full shadow"
+              width={400}
+              height={800}
             />
           </div>
           <div className="absolute bottom-0 right-0 w-[50%] h-[50%]">
             <Image
               src="/images/ring-2.png"
               alt="Ring 2"
-              objectFit="cover"
-              layout="fill"
-              className="rounded shadow"
+              className="rounded w-full shadow"
+              width={400}
+              height={800}
             />
           </div>
         </div>
